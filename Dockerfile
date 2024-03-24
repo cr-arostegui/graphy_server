@@ -1,5 +1,5 @@
 FROM node:hydrogen-buster
-FROM curl:latest
+#FROM curl:latest
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
